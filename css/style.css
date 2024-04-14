@@ -11,9 +11,6 @@
     box-sizing: border-box;
 }
 
-html{
-
-}
 
 body {
     background-color: var(--color-prymary);
@@ -22,40 +19,46 @@ body {
 
 .main{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4vw;
 
 }
 .context {
-    padding: 20px;
+    margin-bottom: 3vh;
+    text-align: center;
+    font-family: Avenir;
 }
 .context p {
-    padding-left: 15vh;
-    padding-right: 15vh;
-   font-family: Avenir ;
-   padding-bottom: 30px;
-   font-size: 26px;
+   font-size: 1.6vw;
    color: #252525;
 }
 
 .context h1 {
-    padding-left: 15vh;
-    padding-right: 15vh;
-    margin: 20px;
-    font-family: Avenir;
-    font-size: 64px;
+    margin-bottom: 3vh;
+    font-size: 6vw;
  }
 
  .context a {
-    padding: 20px 60px;
-    border-radius: 16px;
-    font-size: 18px;
+    padding: 1vw 3.5vw;
+    border-radius: 12px;
+    font-size: 1.2vw;
     color: #ffffff;
-    font-family: Avenir;
     background-color: #252525;
     text-decoration: none;
  }
 
+ .bt{
+    margin:3vw ;
+ }
+
  .grid {
-    margin-top: 30px;
-    padding-left: 15vh;
-    padding-right: 15vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1vw;
+    justify-content: center;
+}
+img {
+    width: 100%;
+    height: auto;
 }
