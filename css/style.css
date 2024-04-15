@@ -41,4 +41,59 @@ main {
    
 }
 
+.texto {
+    width: 60vh;
+    margin-left: 3vh;
+    color: #252525;
+}
 
+h1 {
+    font-family: Avenir;
+    font-size: 3.5vw;
+    line-height: 5vw;
+    margin-bottom: 3vh;
+}
+
+p {
+    font-family: Avenir;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    margin-bottom: 6vh;
+    color: #252525cc;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Avenir;
+    font-size: 1vw;
+    padding: 2vh 2.8vw;
+    border-radius: 2vh;
+    background-color: #252525;
+}
+
+.arriba img {
+    width: 60vh;
+    margin-left: 4vh;
+}
+
+.abajo img {
+    width: 60vh;
+}
+
+.image-container {
+    margin-left: 4vh;
+}
+h2{
+    margin-bottom: 1vh;
+    font-size: 4vh;
+    font-family: Avenir;
+    color: #2525253d;
+}
+
+#i1 {
+    padding-bottom: 13vw;
+}
+#i2 {
+    padding-top: 9vw;
+}
