@@ -27,22 +27,27 @@ body {
 .context {
     margin-bottom: 3vh;
     text-align: center;
+    width: 610vw;
     font-family: Avenir;
 }
 .context p {
-   font-size: 1.6vw;
-   color: #252525;
+   font-size: 1.3vw;
+   line-height: 1.5;
+   width: 607vw;
+   color: #252525ce;
 }
 
 .context h1 {
-    margin-bottom: 3vh;
-    font-size: 6vw;
+    line-height: 1.5;
+    font-size: 4vw;
+    width: 610vw;
  }
 
  .context a {
     padding: 1vw 3.5vw;
     border-radius: 12px;
     font-size: 1.2vw;
+    width: 158vw;
     color: #ffffff;
     background-color: #252525;
     text-decoration: none;
@@ -57,6 +62,7 @@ body {
     grid-template-columns: repeat(4,1fr);
     grid-gap: 1vw;
     justify-content: center;
+    width: 100%;
 }
 img {
     width: 100%;
