@@ -78,7 +78,7 @@ a {
 }
 
 .abajo img {
-    width: 60vh;
+    width: 56vh;
 }
 
 .image-container {
@@ -97,3 +97,13 @@ h2{
 #i2 {
     padding-top: 9vw;
 }
+#ipri {
+    align-items: flex-start;
+    
+}
+#itri {
+    align-items: flex-end;
+    
+}
+
+
