@@ -1,6 +1,44 @@
 @import url(variables.css);
+
+@font-face {
+    font-family: Avenir;
+    src: url(/storage/font/avenir_ff/AvenirLTStd-Roman.otf);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: var(--color-pymary);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 3vw auto;
+    padding: 5vh;
+    width: 100%;
+    align-items: center;
+
+}
+
+.arriba {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   max-width: 100%;
+   padding-bottom: 7vh;
+}
+.abajo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    padding-top: 2vh;
+   
+}
+
+
