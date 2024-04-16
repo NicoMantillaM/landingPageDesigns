@@ -4,3 +4,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+.conte {
+    display: flex;
+    flex-direction: column;
+    
+}
+.izquierda {
+}
+.mini {
+}
+.text {
+}
+.botones {
+}
+.divisiones {
+}
+.sol {
+}
+.star {
+}
+.ojo {
+}
+.mundo {
+}
+.derecha {
+}
