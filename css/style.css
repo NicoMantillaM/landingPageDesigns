@@ -5,3 +5,15 @@
     box-sizing: border-box;
 }
 
+.conte {
+    display: flex;
+
+}
+.tim {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+h1 {
+    width: 100%;
+}
