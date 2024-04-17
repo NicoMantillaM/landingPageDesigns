@@ -15,11 +15,13 @@
     width: 100%;
     margin: 50px;
     font-family: Avenir;
-    font-size: 30px;
     color: #252525;
 }
 .titu {
     padding: 50px 0;
+}
+h1{
+    font-size: 85px;
 }
 
 .conteni {
