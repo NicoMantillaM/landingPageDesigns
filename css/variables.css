@@ -6,3 +6,8 @@
     font-family: Bold;
     src: url(/storage/font/static/PlayfairDisplay-Bold.ttf);
 }
+
+@font-face {
+    font-family: Avenir;
+    src: url(/storage/font/static/avenir_ff/AvenirLTStd-Roman.otf);
+}
