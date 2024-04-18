@@ -1,6 +1,62 @@
 @import url(variables.css);
+@font-face {
+    font-family: Work;
+    src: url(/storage/font/static/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: Workli;
+    src: url(/storage/font/static/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: Workme;
+    src: url(/storage/font/static/WorkSans-Medium.ttf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body{
+    width: 1300px;
+    height: 500px;
+    background-color: #9C2004;
+}
+.conten {
+    display: flex;
+    width: 95%;
+    margin: 25px 45px;
+    height:35% ;
+}
+.img {
+    width: 70%;
+}
+.img img {
+    width: 100%;
+    height: 578px;
+}
+.text {
+    width: 50%;
+    padding: 45px 0;
+}
+h1 {
+    font-family: Work;
+    font-size: 60px;
+    width: 100%;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+p {
+    font-family: Workli;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+a {
+    font-family: Workme;
+    font-size: 20px;
+    border-radius: 22px;
+    color: #000000;
+    background: #E5B94B;
+    padding: 15px 40px;
+    text-decoration: none;
 }
