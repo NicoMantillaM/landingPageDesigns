@@ -4,3 +4,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.izq {
+    width: 50%;
+}
+.der {
+    width: 50%;
+}
+
+
