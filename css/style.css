@@ -4,3 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url('/storage/img/16.svg');
+    position: relative;
+}
+
+
