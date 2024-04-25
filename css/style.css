@@ -19,13 +19,15 @@
     box-sizing: border-box;
 }
 body{
+}
+.containG{
     max-width: 1440px;
     max-height: 1024px;
     height: 100vh;
     margin: auto;
-    background-image: url('/storage/img/co.svg');
+    background-image: url('/storage/img/gra.svg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
 }
 /* .content {
     width: 100%;
