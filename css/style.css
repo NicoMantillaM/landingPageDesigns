@@ -4,3 +4,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+.imag {
+    position: relative;
+}
+.tet1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 50%;
+}
+h1{
+    width: 100%;
+}
+p{
+    width: 100%;
+}
+button{
+    width: 100%;
+}
+.cos {
+}
+
