@@ -11,22 +11,26 @@ body{
 .contG {
     display:flex;
     flex-direction: column;
+    margin: 30PX 30px;
 }
 .row1 {
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 h1{
     font-family: "ave";
-    font-size: 50px;
+    font-size: 75px;
+    padding: 10PX 0;
 }
 .row1 p{
     font-family: "aver";
-    font-size: 20px;
+    font-size: 30px;
+    padding: 20PX 100px 20px 0px;
 }
 a{
+    width: 20%;
     text-decoration: none;
     color: white;
     font-family: "ave";
@@ -38,8 +42,16 @@ a{
 
 .iz {
     width:100%;
+    display: flex;
+    flex-direction: column;
+    padding: 200px 50px 0 50px;
+
 }
 .dr {
+    width: 100%;
+    padding: 50px 50px;
+}
+.dr img{
     width: 100%;
 }
 .row2 {
@@ -47,9 +59,15 @@ a{
     height: 100%;
     display: flex;
     flex-direction: row;
-    background-color: red;
+    justify-content: space-around;
+    background-color: var(--color-prymary);
+    border-radius: 30px;
+    margin: 25px 0;
+    padding: 25px 70px;
+    
 }
 .t1 h2{
+    padding: 12px 0;
     font-family: "ave";
     font-size: 25px;
 }
@@ -58,7 +76,8 @@ a{
 }
 .t1 p{
     font-family: "ave";
-    font-size: 25px;
-
+    font-size: 30px;
+    padding: 15px 0;
+    padding-right: 35px;
 }
 
