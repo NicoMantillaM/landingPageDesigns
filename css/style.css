@@ -4,3 +4,61 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+    height: 100%;
+}
+.contG {
+    display:flex;
+    flex-direction: column;
+}
+.row1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: blueviolet;
+}
+h1{
+    font-family: "ave";
+    font-size: 50px;
+}
+.row1 p{
+    font-family: "aver";
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "ave";
+    font-size: 18px;
+    padding: 15px 43px;
+    border-radius: 30px;
+    background-color: var(--color-prymary);
+}
+
+.iz {
+    width:100%;
+}
+.dr {
+    width: 100%;
+}
+.row2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+.t1 h2{
+    font-family: "ave";
+    font-size: 25px;
+}
+.t1{
+    color: white;
+}
+.t1 p{
+    font-family: "ave";
+    font-size: 25px;
+
+}
+

@@ -1,3 +1,15 @@
 :root{
-    --color-prymary: #ff0000;
+    --color-prymary: #252525;
+}
+@font-face {
+    font-family: "ave";
+    src: url(/storage/font/avenir_ff/AvenirLTStd-Book.otf);
+}
+@font-face {
+    font-family: "aver";
+    src: url(/storage/font/avenir_ff/AvenirLTStd-Roman.otf);
+}
+@font-face {
+    font-family: "avere";
+    src: url(/storage/font/avenir_ff//);
 }
