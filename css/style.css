@@ -4,8 +4,37 @@
     margin: 0;
     box-sizing: border-box;
 }
-.imag {
+body{
+   background-color: #97A3A3;
+}
+.container{
+    display: flex;
+    gap: 60vh;
+    margin: 0 100px;
     position: relative;
+}
+.tet1{
+    position: absolute;
+    top: 10vh;
+    left: 60vh;
+    z-index: 1;
+}
+.tet1 h1{
+   font-family: bold;
+   color: #363830;
+   font-size: 8vh;
+}
+.tet1 p{
+    font-family: repo;
+    font-size: 3vh;
+    color: #363830;
+}
+
+.imp {
+    margin-top: 45vh;
+}
+.imu{
+    margin-bottom: 40vh;
 }
 .tet1 {
     position: absolute;
@@ -21,7 +50,14 @@ p{
     width: 100%;
 }
 button{
-    width: 100%;
+    margin-top: 15px;
+    width: 30%;
+    border-radius: 25px;
+    padding: 1vh 1vh;
+    color: white;
+    font-family: repo;
+    font-size: 2.5vh;
+    background-color: #363830;
 }
 .cos {
 }

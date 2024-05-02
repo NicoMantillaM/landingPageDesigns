@@ -1,3 +1,11 @@
 :root{
     --color-prymary: #ff0000;
 }
+@font-face {
+    font-family: bold;
+    src: url(../storage/font/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: repo;
+    src: url(../storage/font/Poppins/Poppins-Light.ttf);
+}
