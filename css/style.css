@@ -1,6 +1,105 @@
+
 @import url(variables.css);
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color:#F8F8F8;
+}
+.contG {
+    display:flex;
+    flex-direction: column;
+    margin: 30PX 30px;
+}
+.row1 {
+    padding: 15PX 0;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    /* background-color: blueviolet; */
+}
+#deli{
+    padding: 0PX 25px;
+}
+h1{
+    font-family: "bold";
+    font-size: 45px;
+    padding: 10PX 0;
+}
+.row1 p{
+    font-family: "re";
+    font-size: 20px;
+    padding: 20PX 0px 20px 0px;
+}
+a{
+    width: 40%;
+    text-decoration: none;
+    color: white;
+    font-family: "re";
+    font-size: 18px;
+    text-align:center;
+    padding: 15px 43px;
+    border-radius: 30px;
+    background-color: #06040A;
+}
+
+.iz {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 0 50px;
+
+}
+.dr {
+    width: 50%;
+}
+.dr img{
+    width: 60vh;
+}
+.row2 {
+    width: 95%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin: 25px 0;
+    padding: 25px 70px;
+    
+}
+.t1 h2{
+    padding: 12px 0;
+    font-family: "bold";
+    font-size: 25px;
+}
+.t1{
+    padding: 20px 30px;
+    background-color: white;
+    color: #06040A;
+}
+.t1 p{
+    font-family: "lig";
+    font-size: 17px;
+    padding: 15px 0;
+    padding-right: 35px;
+}
+.t2 h2{
+    padding: 12px 0;
+    font-family: "bold";
+    font-size: 25px;
+}
+.t2{
+    padding: 15px 30px;
+    background-color: #E2E7F1;
+    color: #06040A;
+}
+.t2 p{
+    font-family: "lig";
+    font-size: 17px;
+    padding: 15px 0;
+    padding-right: 35px;
 }
