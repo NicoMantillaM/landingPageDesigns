@@ -5,42 +5,57 @@
     box-sizing: border-box;
 }
 body{
-   background-color: #97A3A3;
+    width: 1440px;
+    height: 900px;
+    background-color: #97A3A3;
 }
 .container{
     display: flex;
-    gap: 60vh;
-    margin: 0 100px;
+    gap: 33vh;
+    margin: 0 40px;
     position: relative;
 }
 .tet1{
     position: absolute;
     top: 10vh;
-    left: 60vh;
+    left: 27vh;
     z-index: 1;
 }
 .tet1 h1{
    font-family: bold;
    color: #363830;
-   font-size: 8vh;
+   font-size: 8.5vh;
 }
 .tet1 p{
+    padding: 0 10px 0 0;
     font-family: repo;
-    font-size: 3vh;
-    color: #363830;
+    font-size: 2.3vh;
+    color: #000000;
 }
 
 .imp {
-    margin-top: 45vh;
+    margin-top: 47vh;
+    width: 30%;
+    
 }
 .imu{
+    width: 40%;
     margin-bottom: 40vh;
+}
+.imp img{
+   width: 100%;
+   height: 30px;
+}
+.imu img{
+    margin-bottom: 40vh;
+    width: 10px;
+    height: 10px;
 }
 .tet1 {
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 41%;
     height: 50%;
 }
 h1{
@@ -52,13 +67,30 @@ p{
 button{
     margin-top: 15px;
     width: 30%;
-    border-radius: 25px;
-    padding: 1vh 1vh;
+    border-radius: 45px;
+    padding: 1.3vh 1vw;
     color: white;
     font-family: repo;
-    font-size: 2.5vh;
+    font-size: 2vh;
     background-color: #363830;
 }
+.textaba{
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+    padding: 4vh 5vh;
+    position: absolute;
+    z-index: 2;
+    top:65vh;
+    left: 35vh;
+    background-color: #ffffff85;
+    border-radius: 100vh;
+}
+.textaba h2{
+    font-family: bold;
+}
 .cos {
+    font-family: repo;
+    padding: 0 5vh;
 }
 
