@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: Avenir;
-    src: url(/storage/font/avenir_ff/AvenirLTStd-Roman.otf);
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Roman.otf);
 }
 
 .conte {
