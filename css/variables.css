@@ -3,9 +3,9 @@
 }
 @font-face {
     font-family: Poppins;
-    src: url(/storage/font/Poppins/Poppins-Bold.ttf);
+    src: url(../storage/font/Poppins/Poppins-Bold.ttf);
 }
 @font-face {
     font-family: PoppinsRe;
-    src: url(/storage/font/Poppins/Poppins-Regular.ttf);
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
 }
