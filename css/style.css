@@ -1,15 +1,15 @@
 @import url(variables.css);
 @font-face {
     font-family: Work;
-    src: url(/storage/font/static/WorkSans-Bold.ttf);
+    src: url(../storage/font/static/WorkSans-Bold.ttf);
 }
 @font-face {
     font-family: Workli;
-    src: url(/storage/font/static/WorkSans-Light.ttf);
+    src: url(../storage/font/static/WorkSans-Light.ttf);
 }
 @font-face {
     font-family: Workme;
-    src: url(/storage/font/static/WorkSans-Medium.ttf);
+    src: url(../storage/font/static/WorkSans-Medium.ttf);
 }
 *{
     padding: 0;
