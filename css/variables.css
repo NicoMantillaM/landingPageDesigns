@@ -3,13 +3,13 @@
 }
 @font-face {
     font-family: "bold";
-    src: url(/storage/font/Lato/Lato-Bold.ttf);
+    src: url(../storage/font/Lato/Lato-Bold.ttf);
 }
 @font-face {
     font-family: "re";
-    src: url(/storage/font/Lato/Lato-Regular.ttf);
+    src: url(../storage/font/Lato/Lato-Regular.ttf);
 }
 @font-face {
     font-family: "lig";
-    src: url(/storage/font/Lato/Lato-Light.ttf);
+    src: url(../storage/font/Lato/Lato-Light.ttf);
 }
