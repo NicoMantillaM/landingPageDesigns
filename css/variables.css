@@ -2,3 +2,19 @@
     --color-primary: #000000;
     --color-font-primary: #ffffff;
 }
+@font-face {
+    font-family: "bitterTitu";
+    src: url("../storage/font/bitter/Bitter-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "bitterTitu2";
+    src: url("../storage/font/bitter/Bitter-Bold.ttf");
+}
+@font-face {
+    font-family: "monoParra";
+    src: url("../storage/font/Space_Mono/SpaceMono-Regular.ttf");
+}
+@font-face {
+    font-family: "monoBold";
+    src: url("../storage/font/Space_Mono/SpaceMono-Bold.ttf");
+}
