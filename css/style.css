@@ -22,7 +22,7 @@ body{
     position: relative;
     z-index: 1;
     /* background: purple; */
-    padding:  0 0 15vh 3vh;
+    padding:  0 0 15vh 0vh;
 }
 .section__img .uni{
     width: 80%;
